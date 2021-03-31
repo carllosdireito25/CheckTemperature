@@ -27,7 +27,7 @@ As variaveis de ambiente são:
 dê um print() nas variaveis de ambiente criadas para se 
 certificar que estao sendo pegas. Caso negativo, reinicie a maquina. 
 Nem sempre é reconhecido no exato momento.
-A chave da variavel **django_secret_key** será passada por email.
+A chave da variavel **django_secret_key** é passada por email ao solicitante.
 Para a chave **key_openweather** ela é emitida gratuitamente no site
 da openweather. Basta gerar uma:
 
