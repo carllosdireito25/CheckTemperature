@@ -1,0 +1,21 @@
+.center {
+  margin: auto;
+  display:inline-block;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  line-height: 100px;
+}
+ span {
+ color: black;
+ font-size: 40px;
+ font-weight: bold
+ }
+ img {
+ margin: auto;
+  display:inline-block;
+  width: 60%;
+  padding: 5px;
+  text-align: center;
+  line-height: 100px;
+ }

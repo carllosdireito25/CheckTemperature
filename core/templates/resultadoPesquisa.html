@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/table.css' %}">
+</head>
+<body>
+<center>
+ <h1>RESULTADO DA PESQUISA</h1>
+    {% if registros %}
+ <table>
+     <thead>
+     <tr>
+         <th>CITY</th>
+         <th>TEMPERATURE</th>
+         <th>CREATION DATE</th>
+     </tr>
+     </thead>
+     <tbody>
+{% for registro in registros %}
+<tr>
+    <td> {{registro.city}}</td>
+    <td><b>{{registro.temperature}} Cº</b></td>
+    <td>{{registro.date}}</td>
+</tr>
+ {% endfor %}
+     </tbody>
+ </table>
+    {% else %}
+    <h2>NÃO HOUVE PESQUISA UTILIZANDO ESTA CIDADE</h2>
+    {% endif %}
+</center>
+</body>
+</html>

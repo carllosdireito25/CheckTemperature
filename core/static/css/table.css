@@ -1,0 +1,13 @@
+table, th, td {
+  border: 1px solid black;
+ text-align: center;
+}
+table {
+  width: 50%;
+}
+th{
+background-color:#FFE4C4
+}
+</style>
+</head>
+<body>
